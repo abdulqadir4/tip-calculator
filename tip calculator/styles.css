@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body.bg {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+  
+  #results {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #555;
+  }
+  
+  #tip-amount-result,
+  #total-amount-result {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .hide {
+    display: none;
+  }
